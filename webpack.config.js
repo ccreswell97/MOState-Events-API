@@ -16,7 +16,7 @@ module.exports = (env, args) => {
         template: './src/index.html'
       })],
     devServer: {
-      https: true
+      https: false
     }
   };
 };
